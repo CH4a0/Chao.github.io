@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.Menu{
+    background-color: orange;
+    padding: 20px;
+}
+.Menu > a{
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.Menu a:hover{
+    background-color: rgba(255, 166, 0, 0.675);
+    color: black;
+}
+
+.MenuV{
+    float: left;
+    width: 200px;
+}
+.MenuV a{ 
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    display: block;
+}
+
+.MenuV a:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+img{
+    width: 500px;
+    border: double;
+    margin: 5px;
+}
